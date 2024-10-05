@@ -1,0 +1,14 @@
+server:
+  port: 4001
+spring:
+  application:
+    name: Security-LoginC-Registration
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/usersecurity
+    username: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
